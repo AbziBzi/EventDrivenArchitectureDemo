@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{938D9A27-0294-4BAD-BB02-CB308DF49FA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DBE03AAB-ED45-4515-8ACD-DC23801095AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{8795BC10-DABC-4EFF-B0ED-68504FB4F6B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{23AEC877-74B5-458B-8D56-7979B4C07878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barista", "src\Services\Barista\Barista.csproj", "{1BB818E5-D81C-4355-8690-F79E6BB077D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeMachine", "src\Services\CoffeMachine\CoffeMachine.csproj", "{52314655-BE9E-4057-92C6-ED66777FB8DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Waiter", "src\Services\Waiter\Waiter.csproj", "{64CAFA3E-1AAC-465B-860B-44E3D9C5819E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\ApiGateways\WebApi\WebApi.csproj", "{4B6959C9-3B2D-4973-837D-5BDEBDA898A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BB818E5-D81C-4355-8690-F79E6BB077D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB818E5-D81C-4355-8690-F79E6BB077D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB818E5-D81C-4355-8690-F79E6BB077D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB818E5-D81C-4355-8690-F79E6BB077D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52314655-BE9E-4057-92C6-ED66777FB8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52314655-BE9E-4057-92C6-ED66777FB8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52314655-BE9E-4057-92C6-ED66777FB8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52314655-BE9E-4057-92C6-ED66777FB8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CAFA3E-1AAC-465B-860B-44E3D9C5819E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CAFA3E-1AAC-465B-860B-44E3D9C5819E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CAFA3E-1AAC-465B-860B-44E3D9C5819E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CAFA3E-1AAC-465B-860B-44E3D9C5819E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6959C9-3B2D-4973-837D-5BDEBDA898A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6959C9-3B2D-4973-837D-5BDEBDA898A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6959C9-3B2D-4973-837D-5BDEBDA898A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6959C9-3B2D-4973-837D-5BDEBDA898A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8795BC10-DABC-4EFF-B0ED-68504FB4F6B5} = {938D9A27-0294-4BAD-BB02-CB308DF49FA8}
+		{23AEC877-74B5-458B-8D56-7979B4C07878} = {938D9A27-0294-4BAD-BB02-CB308DF49FA8}
+		{1BB818E5-D81C-4355-8690-F79E6BB077D6} = {23AEC877-74B5-458B-8D56-7979B4C07878}
+		{52314655-BE9E-4057-92C6-ED66777FB8DE} = {23AEC877-74B5-458B-8D56-7979B4C07878}
+		{64CAFA3E-1AAC-465B-860B-44E3D9C5819E} = {23AEC877-74B5-458B-8D56-7979B4C07878}
+		{4B6959C9-3B2D-4973-837D-5BDEBDA898A9} = {8795BC10-DABC-4EFF-B0ED-68504FB4F6B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3827CE9-FBEC-41E8-AA25-50F6E9081C80}
+	EndGlobalSection
+EndGlobal
